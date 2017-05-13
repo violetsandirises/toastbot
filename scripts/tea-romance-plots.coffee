@@ -27,6 +27,7 @@ module.exports = (robot) ->
       'A chef who sells mushrooms on the black market',
       'A third-generation shrimp farmer',
       'The host of a vibrant literary salon'
+      'A shy but clever copy editor'
     ]
 
     secondPerson = [
@@ -45,6 +46,7 @@ module.exports = (robot) ->
       'a velociraptor shifter escaped from a government facility',
       'a chemist developing a love potion',
       'an undercover mushroom enforcement agent'
+      'a grifter with an embarrassing secret'
     ]
 
     romanceScenario = [
@@ -69,6 +71,7 @@ module.exports = (robot) ->
       'spend one whirlwind night of passion together',
       'butt heads',
       'just want to run their fingers down one another\'s spines'
+      'have to share a room when their lodgings are overbooked'
     ]
 
     romanceSetting = [
@@ -90,6 +93,7 @@ module.exports = (robot) ->
       'at a classy and discreet BDSM club',
       'in a burnt out forest',
       'in a high-end pastry shop'
+      'at the Grand Canyon'
     ]
 
     whatFollows = [
@@ -103,6 +107,7 @@ module.exports = (robot) ->
       'It\'s love at first sight ... but is love enough?',
       'They were prepared for anything ... except love.',
       'Will they ....? They already did.'
+      'Can opposites attract?'
     ]
 
     robot.hear /toastbot romance/i, (res) ->
